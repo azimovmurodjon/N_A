@@ -25,4 +25,6 @@ Have questions or need assistance? Feel free to reach out to us through our [web
 Stay up-to-date with the latest news, updates, and announcements from NetCore Dynamics by following us on [Twitter](https://twitter.com/NetCoreDynamics) and [LinkedIn](https://www.linkedin.com/company/netcore-dynamics). Join the conversation using #NetCoreDynamics.
 
 Thank you for choosing NetCore Dynamics for your software development needs. Let's build the future together! 🚀
-![image](https://github.com/azimovmurodjon/NCDynamix/assets/96605136/43216aa1-d95e-4e05-ab82-43a92f5b5c15)
+
+
+![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/6bcd7247-6034-4ef1-95a4-947dcd8a83ab)
