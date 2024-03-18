@@ -1,0 +1,297 @@
+:root {
+    --shadow-color: 0deg 85% 17%;
+    --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        0.4px 0.8px 1px -1.2px hsl(var(--shadow-color) / 0.34),
+        1px 2px 2.5px -2.5px hsl(var(--shadow-color) / 0.34);
+    --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+        0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+        2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+        5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+    --shadow-elevation-high: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+        1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color) / 0.34),
+        2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color) / 0.34),
+        4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color) / 0.34),
+        7.1px 14.3px 18px -1.4px hsl(var(--shadow-color) / 0.34),
+        11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color) / 0.34),
+        17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
+        25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
+}
+
+header {
+    display: flex;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+#logo {
+    position: relative;
+    display: inline-block;
+}
+
+#logo img {
+    height: 52px;
+    width: auto;
+}
+
+figure {
+    cursor: pointer;
+    position: relative;
+    height: 320px;
+}
+
+.detail-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 210px;
+    transition: 0.5s ease;
+}
+
+.detail-not-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+    transition: 0.5s ease;
+}
+
+.price-table .price-details {
+    line-height: 1.8;
+}
+
+@media only screen and (min-width: 768px) {
+    figure:hover .detail-overlay {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    figure {
+        height: 250px;
+    }
+    .detail-overlay {
+        height: 157px;
+    }
+    .heading.detail-heading {
+        padding-bottom: 0px;
+        border-bottom: 2px solid #d8d8d8;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    figure {
+        height: 320px;
+    }
+    .detail-overlay {
+        height: 234px;
+    }
+}
+
+@media (max-width: 767px) {
+    figure {
+        height: auto;
+    }
+    .detail-overlay {
+        position: relative;
+        height: auto;
+    }
+    .price-table {
+        padding-bottom: 0;
+    }
+    #section2 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .price-table .price-details {
+        line-height: 1.6;
+        padding: 15px;
+    }
+}
+
+.detail-heading h4 {
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+
+h4 > img {
+    height: 20px;
+    width: auto;
+    margin-right: 15px;
+    z-index: 0;
+}
+
+.service-container div:nth-child(1) div,
+.service-container div:nth-child(4) div {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.service-container div:nth-child(1) div h4,
+.service-container div:nth-child(4) div h4 {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.stack-text {
+    padding-top: 10px;
+}
+
+.stack-text h3 {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.tech-stacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.stack-item {
+    position: relative;
+    display: inline-block;
+    width: 114px;
+    background: #073d4f5b;
+    border-radius: 16px;
+    box-shadow: var(--shadow-elevation-medium);
+    margin: 10px;
+    padding: 10px;
+}
+
+.stack-item svg {
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: auto auto;
+}
+
+.stack-item img {
+    display: block;
+    height: 70px;
+    width: auto;
+    margin: auto auto;
+}
+
+.stack-item:nth-child(9) img {
+    padding: 10px;
+}
+
+.stack-item:nth-child(13) img {
+    height: auto;
+    padding: 12px 0;
+}
+
+.stack-item p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#language-option {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    color: #2b2b2b;
+}
+
+footer li a:hover i {
+    color: #fff !important;
+}
+
+.message-box {
+    width: 100%;
+    display: block;
+    padding: auto 0;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .message-box {
+        margin-top: 70px;
+    }
+}
+
+.msg-alert {
+    display: none;
+    position: absolute;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 200;
+    width: 100%;
+    font-size: 14px;
+    font-style: italic;
+    bottom: 0;
+    left: 0;
+}
+
+.msg-alert img {
+    height: 16px;
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+footer div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy {
+    color: #888;
+}
+
+.privacy:hover {
+    color: #fff;
+}
+
+.pb {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.privacy-container p {
+    font-size: 16px;
+}
+
+.privacy-container li {
+    list-style-type: circle;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    footer div div {
+        display: block;
+    }
+    footer div div span {
+        display: block;
+    }
+}
+
+.language_select {
+    border: none;
+    background: transparent;
+    color: darkred;
+}

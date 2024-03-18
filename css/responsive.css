@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/* Large Devices (large desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+  #inquire {
+    margin-top: -20px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+}
+
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 993px) {
+  #nav {
+    display: table-cell !important;
+  }
+  #nav-button {
+    display: none;
+  }
+  figure {
+    height: 420px;
+  }
+  .detail-overlay {
+    height: 200px;
+  }
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1029px) {
+  .prev-ajax {
+    left: 0px;
+  }
+  .next-ajax {
+    right: 0px;
+  }
+  .info-box-content,
+  .covering-image {
+    display: none;
+  }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 992px) {
+  #nav-button {
+    display: block;
+    float: right;
+    width: 25px;
+    margin-top: 16px;
+    cursor: pointer;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .nav-bar {
+    background-color: #2b2b2b;
+    border-radius: 1px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+  }
+  nav {
+    margin: 0px;
+    position: relative;
+    display: block;
+    height: auto;
+    float: none;
+    clear: both;
+  }
+  #nav {
+    display: none;
+    width: 100%;
+    z-index: 300;
+    float: none;
+    position: relative;
+    top: 0px;
+    padding-top: 25px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+  }
+  #nav li {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    float: none;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+  #nav li a {
+    padding: 15px;
+  }
+  #nav li a:hover::after {
+    width: 0%;
+  }
+  #nav li.active a::after {
+    width: 0%;
+  }
+
+  .add-padding {
+    padding: 0 17px;
+  }
+  .add-padding.left {
+    padding-right: 17px;
+  }
+  .add-padding.right {
+    padding-left: 17px;
+  }
+  #Container {
+    margin-top: 40px;
+  }
+  .col-lg-12 .client {
+    width: 33.33333%;
+    padding: 20px 0;
+  }
+  .border-left-wrapper {
+    padding-left: 15px;
+  }
+  .comment {
+    margin-right: 0px;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 767px) {
+  .column-count2 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+  }
+  #headline_cycler ul.flexslider > li > h2,
+  #headline h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  #arrow-down {
+    height: 60px;
+  }
+  #nav-button {
+    display: block;
+    float: right;
+    width: 25px;
+    margin-top: 16px;
+    cursor: pointer;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .nav-bar {
+    background-color: #2b2b2b;
+    border-radius: 1px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+  }
+  nav {
+    margin: 0px;
+    position: relative;
+    display: block;
+    height: auto;
+    float: none;
+    clear: both;
+  }
+  #nav {
+    display: none;
+    width: 100%;
+    z-index: 300;
+    float: none;
+    position: relative;
+    top: 0px;
+    padding-top: 25px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+  }
+  #nav li {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    float: none;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+  #nav li a {
+    padding: 15px;
+  }
+
+  #contact {
+    padding-right: 0px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 16px 20px;
+  }
+  .col-lg-12 .client {
+    width: 50%;
+  }
+  footer {
+    height: auto;
+  }
+  footer span {
+    float: none !important;
+    display: block;
+    padding-bottom: 10px;
+  }
+  .custom-pagination .left,
+  .custom-pagination .right {
+    clear: both;
+    display: block;
+    width: 100%;
+  }
+  #Container .mix {
+    margin-bottom: 20px;
+  }
+  .section {
+    padding: 84px 0 67px 0;
+  }
+  #ancor2,
+  #ancor3,
+  #ancor4,
+  #ancor5,
+  #ancor6,
+  #ancor7,
+  #ancor8 {
+    top: -48px;
+  }
+  .commenter-avatar {
+    float: none;
+    padding-right: 0px;
+    max-width: 80px;
+    padding-bottom: 20px;
+  }
+  .comment-content {
+    float: none;
+    max-width: 100%;
+    padding-right: 0px;
+  }
+  .container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}

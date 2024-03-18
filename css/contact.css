@@ -1,0 +1,114 @@
+#contact {
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 0px;
+  border: none;
+  overflow: hidden;
+  padding-right: 30px;
+}
+.blog #contact {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+}
+#contact label {
+  display: none;
+  float: none;
+  height: 0px;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea {
+  border: 0;
+  float: none;
+  display: block;
+  -webkit-appearance: none;
+  margin-bottom: 31px;
+  color: #888;
+}
+.white-bg input,
+.white-bg textarea {
+  border: 1px solid #d8d8d8 !important;
+  background: #f8f8f7 !important;
+}
+
+#contact textarea {
+  resize: none;
+}
+input.submit {
+  border: 2px solid #ffffff !important;
+  color: #ffffff;
+  padding: 13px 25px 14px;
+  margin: 10px 0 0px 0;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  z-index: 1;
+  position: relative;
+  -webkit-text-shadow: none !important;
+  text-shadow: none !important;
+  font-style: normal;
+  font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: none !important;
+}
+input.submit:hover {
+  cursor: pointer;
+  background: #72b626 !important;
+  color: #000;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  border: 2px solid #72b626 !important;;
+}
+
+.hide {
+  float: right;
+}
+#contact fieldset {
+  padding-left: 0px;
+}
+#success_page h4 {
+  margin-top: -4px;
+  font-size: 16px;
+}
+.error_message {
+  display: block;
+  height: auto;
+  width: auto;
+  color: #8a1f11;
+}
+.loader {
+  display: none;
+}
+#comments {
+  height: 205px;
+}
+input,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+textarea,
+input:not([type="radio"]):not([type="checkbox"]):not([type="hidden"]):not([type="button"]):not([type="submit"]):not([type="image"]) {
+  background-color: #72b626;
+  border: 0;
+  margin-right: 0;
+  width: 100%;
+  font: 15px 'Inconsolata', Georgia, "Times New Roman", Times, serif;
+  padding: 17px 20px 18px 20px;
+}
