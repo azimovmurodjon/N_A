@@ -27,4 +27,10 @@ Stay up-to-date with the latest news, updates, and announcements from NetCore Dy
 Thank you for choosing NetCore Dynamics for your software development needs. Let's build the future together! 🚀
 
 
-![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/6bcd7247-6034-4ef1-95a4-947dcd8a83ab)
+![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/9072af07-9eb0-4f3f-8e30-e86b30df1d49)
+![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/a8ba9d96-540f-425f-82c7-8da6ae68c429)
+![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/0cf46822-0495-4dfe-8e71-32bb685b08c5)
+![image](https://github.com/azimovmurodjon/azimovmurodjon.github.io/assets/96605136/24b90f78-c476-4fa0-962e-819ef9ac3acb)
+
+
+
